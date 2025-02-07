@@ -1,0 +1,45 @@
+.text-color-shopnow{
+    color: #CEBD9C;
+    border-bottom: 2px solid #CEBD9C;
+}
+.overlined-price-card{
+
+    text-decoration: line-through;
+}
+
+.colored-section-text{
+    background-color: #F3EADB;
+
+}
+.cardsection-links{
+    color: black;
+}
+.card-sizing{
+
+  width: 22rem;
+
+}
+.arrow-control-top{
+       
+    position: absolute;
+    right: 1000px;
+}
+.Arrow-center{
+    position: absolute;
+    left: 20px;
+    top: 18px;
+}
+@media only screen and (max-width: 480px) {
+
+    .card-sizing{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 760px) {
+
+    .border-remove-end{
+        border-right: none !important;
+    }
+    
+}
